@@ -1,0 +1,39 @@
+/*Header*/
+header{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;  
+    background-color:#161925;  
+}
+header span h1{
+    margin: 2rem 0 1rem 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color:#fdfffc;
+}
+header ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+
+}
+header ul li a{
+    
+    text-decoration: none;
+    
+    padding: 2.5rem 100vw;
+
+
+    color:  #161925;
+    
+}
+header ul li{
+    
+    text-align: center;
+    background-color:#fdfffc;
+    margin: .2rem;
+    padding: 2.5rem 100vw;
+}

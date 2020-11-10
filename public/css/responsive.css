@@ -1,0 +1,67 @@
+@media screen and (min-width: 1024px) {
+    header {
+        flex-direction: row;   
+        justify-content: space-between;     
+    }
+    header ul{
+        flex-direction: row;
+        margin: 0 20px 0 ;
+    }
+    header span{
+        margin: 0 0 0 20px;
+    }
+    header ul li{
+        padding: 10px;
+        border:none;
+        border-radius:5px;
+        background-color: #161925;
+        transition: 200ms;
+    }
+    header ul li:hover{
+        background-color: #22273a;
+    }
+    header ul li a{
+    
+        text-decoration: none;
+        text-transform: uppercase;
+        
+        padding: 10px;
+    
+    
+        color:  white;
+        
+    }
+
+
+    #skills {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #skills div{
+        max-width: 25rem;
+
+    }
+    h2{
+        text-align: center;
+        margin: 2rem;
+    }
+
+    #contact{
+        background-color: #161925;
+
+        display: flex;
+        justify-content: center;
+    }
+    #contact a{
+        width: 20rem;
+
+    }
+    #contact div{
+        transition: 200ms;
+    }
+    #contact div:hover{
+        box-shadow: 8px 8px #22273a;
+    }
+}

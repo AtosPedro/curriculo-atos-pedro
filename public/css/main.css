@@ -4,8 +4,8 @@
 }
 
 body{
-    background-color: #fdfffc;
-    color: black;
+    background-color:  #161925;
+    color: #161925;
 }
 
 h1,h2,h3{
@@ -15,33 +15,3 @@ h1,h2,h3{
 p{
     font-family: 'Roboto', sans-serif;
 }
-
-/*Header*/
-header{
-    width: 100%;
-
-    display: flex;
-    flex-direction: column;
-
-    align-items: center;
-    justify-content: space-between;
-
-}
-
-header ul li{
-    list-style: none;
-
-
-}
-header ul li a{
-
-    text-decoration: none;
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    
-    
-}
-/*Resume*/
-/*About*/
-/*Skills*/
-/*Contact*/

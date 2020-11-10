@@ -1,0 +1,10 @@
+#skills div{
+    margin: 1rem;
+    padding: 2rem;
+    background-color: rgb(228, 228, 228);
+    text-align: justify;
+    color: #161925;
+
+    border: none;
+    border-radius: .5rem;
+}
