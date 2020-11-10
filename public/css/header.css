@@ -23,17 +23,18 @@ header ul{
 header ul li a{
     
     text-decoration: none;
+    text-transform: uppercase;
     
     padding: 2.5rem 100vw;
 
 
-    color:  #161925;
+    color:#fdfffc;
     
 }
 header ul li{
     
     text-align: center;
-    background-color:#fdfffc;
-    margin: .2rem;
+    background-color: #22273a;
+    margin: .1rem;
     padding: 2.5rem 100vw;
 }

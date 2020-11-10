@@ -52,7 +52,7 @@
         background-color: #161925;
 
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
     }
     #contact a{
         width: 20rem;
@@ -63,5 +63,19 @@
     }
     #contact div:hover{
         box-shadow: 8px 8px #22273a;
+    }
+    footer{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+    }
+    footer ul li{
+        display: inline;
+        margin: 0;
+        transition: 200ms;
+    }
+    footer ul li:hover{
+        box-shadow: 2px 2px  #161925;
     }
 }
