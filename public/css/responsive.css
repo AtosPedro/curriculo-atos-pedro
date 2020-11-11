@@ -68,12 +68,13 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        padding: 10px;
+        padding: 50px;
     }
     footer ul li{
         display: inline;
-        margin: 0;
+        margin: 2px;
         transition: 200ms;
+        width: clamp(1rem, 1.2rem, 1.4rem);
     }
     footer ul li:hover{
         box-shadow: 2px 2px  #161925;

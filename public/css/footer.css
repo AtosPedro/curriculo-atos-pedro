@@ -20,7 +20,7 @@ footer a{
 .site-buttom{
     background-color: #161925;
 
-    margin: 1rem;
+    margin: .5rem;
     padding: 1rem;
     border: none;
     border-radius: 5px;
@@ -35,15 +35,16 @@ footer ul{
     list-style: none;
 }
 footer ul li{
-    margin: .5rem;
+    margin: 1rem;
     text-align: center;
     padding: 1rem;
     background-color: #161925;
 
     border: none;
     border-radius: 5px;
+
 }
 footer ul li a{
-    margin: 0;
+    margin: 1rem;
     padding: 1rem;
 }
