@@ -77,28 +77,32 @@
         padding: 50px;
     }
     .site-buttom{
-        flex-direction: column;
+        flex-direction: row;
+        width: 100%;
     }
     .site-buttom a:hover{
         box-shadow: 2px 2px  #161925;
     }
-    }
+    
     .artists{
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
+        flex-direction: row;
+        align-items: center; 
+        justify-content: space-between;     
+    }
+    .artists ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .artists ul li{
+        width: 10rem;
 
     }
-    footer ul{
-        display: flex;
-    }
-    footer ul li{
-        
-        display:block;
-    }
-    footer ul li a{
+
+    .artists ul li a{
                        
         transition: 200ms;
+        
         
     }
     footer ul li a:hover{
