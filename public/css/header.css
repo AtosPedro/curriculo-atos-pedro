@@ -14,27 +14,31 @@ header span h1{
     font-weight: 700;
     color:#fdfffc;
 }
-header ul{
+header nav{
+    width: 100%;
+}
+header nav ul{
     display: flex;
     flex-direction: column;
     list-style: none;
-
 }
-header ul li a{
+header nav ul li a{
+
+    display: block;
     
     text-decoration: none;
     text-transform: uppercase;
     
-    padding: 2.5rem 100vw;
-
-
+    
+    padding: 2.5rem;    
     color:#fdfffc;
+    background-color: #22273a;
     
 }
-header ul li{
-    
+header nav ul li{
+    width: auto;
     text-align: center;
-    background-color: #22273a;
-    margin: .1rem;
-    padding: 2.5rem 100vw;
+    
+    margin: .1rem 0;
+    
 }

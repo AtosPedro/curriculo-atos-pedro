@@ -18,6 +18,14 @@ footer a{
 
 }
 .site-buttom{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin: 1rem;
+}
+.site-buttom a{
+
     background-color: #161925;
 
     margin: .5rem;
@@ -25,9 +33,14 @@ footer a{
     border: none;
     border-radius: 5px;
 }
+.artists{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 footer p{
     text-transform: uppercase;
-    margin: 1rem;
     text-align: center;
 }
 
@@ -37,14 +50,15 @@ footer ul{
 footer ul li{
     margin: 1rem;
     text-align: center;
-    padding: 1rem;
-    background-color: #161925;
-
-    border: none;
-    border-radius: 5px;
-
 }
 footer ul li a{
-    margin: 1rem;
+    display:block;
+
     padding: 1rem;
+    
+    
+    background-color: #161925;
+    border: none;
+    border-radius: 5px;
+    
 }
