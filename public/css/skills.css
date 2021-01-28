@@ -12,3 +12,8 @@
 
     box-shadow: 8px 8px  #22273a;
 }
+#skills div a{
+    text-decoration: none;
+    color: black;
+    transition: 200ms
+}

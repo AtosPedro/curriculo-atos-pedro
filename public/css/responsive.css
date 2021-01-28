@@ -19,12 +19,10 @@
         padding: 10px;
         border:none;
         border-radius:5px;
-        background-color: #161925;
-        transition: 200ms;
+        
+        
     }
-    header nav ul li:hover{
-        background-color: #22273a;
-    }
+   
     header nav ul li a{
     
         text-decoration: none;
@@ -34,7 +32,12 @@
     
     
         color:  white;
-        
+        transition: 400ms;
+
+        box-shadow: 2px 2px rgba(0,0,0,.2);
+    }
+    header nav ul li a:hover{
+        padding: 15px;
     }
 
 
@@ -47,6 +50,11 @@
     #skills div{
         max-width: 25rem;
 
+
+    }
+   
+    #skills div a:hover{
+        color:  #22273a;
     }
     h2{
         text-align: center;
@@ -81,7 +89,7 @@
         width: 100%;
     }
     .site-buttom a:hover{
-        box-shadow: 2px 2px  #161925;
+        box-shadow: 2px 2px rgba(0,0,0,.2);
     }
     
     .artists{
@@ -106,6 +114,6 @@
         
     }
     footer ul li a:hover{
-        box-shadow: 2px 2px  #161925;
+        box-shadow: 2px 2px rgba(0,0,0,.2);
     }
 }

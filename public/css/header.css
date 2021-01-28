@@ -29,7 +29,8 @@ header nav ul li a{
     text-decoration: none;
     text-transform: uppercase;
     
-    
+    border: none;
+    border-radius: .6rem;
     padding: 2.5rem;    
     color:#fdfffc;
     background-color: #22273a;
